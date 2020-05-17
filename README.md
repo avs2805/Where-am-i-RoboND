@@ -54,11 +54,11 @@
 ```
 
 #### Images
-![screenshot of localized robot](localized_robot_screenshot.png)
+![screenshot of localized robot](./images/localized_robot_screenshot.png)
 
 1. Localized robot starting from initial pose x:0, y:0. Move input provided by teleop_twist_keyboard.py
-![localized robot starting from zero](tuned_amcl_1.gif)
+![localized robot starting from zero](./images/tuned_amcl_1.gif)
 
 2. Localized robot after providing it a 2D pose estimate. Move input provided by teleop_twist_keyboard.py
-![localized robot after providing 2D Pose Estimate](tuned_amcl_2.gif)
+![localized robot after providing 2D Pose Estimate](./images/tuned_amcl_2.gif)
 
