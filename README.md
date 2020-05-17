@@ -1,7 +1,8 @@
 ### AMCL in ROS - Udacity RoboND
+________
 
 #### Folder Structure:
----
+________
 
 ```bash
 .
@@ -19,9 +20,7 @@
 │   │   └── amcl.launch
 │   ├── maps
 │   │   ├── apt_1br_map.pgm
-│   │   ├── apt_1br_map.yaml
-│   │   ├── udacity_mtv_map.pgm
-│   │   └── udacity_mtv_map.yaml
+│   │   └── apt_1br_map.yaml
 │   ├── package.xml
 │   └── src
 ├── CMakeLists.txt -> /opt/ros/melodic/share/catkin/cmake/toplevel.cmake
@@ -41,8 +40,7 @@
 │   │   ├── my_robot.gazebo
 │   │   └── my_robot.xacro
 │   └── worlds
-│       ├── robots_in_apt.world
-│       └── udacity_mtv.world
+│       └── robots_in_apt.world
 ├── README.md
 └── teleop_twist_keyboard
     ├── CHANGELOG.rst
@@ -54,6 +52,7 @@
 ```
 
 #### Images
+________
 ---
 ![screenshot of localized robot](./images/localized_robot_screenshot.png)
 
