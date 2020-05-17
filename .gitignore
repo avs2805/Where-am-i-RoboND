@@ -1,3 +1,4 @@
 .vscode/*
-amcl_pkg/maps/udacity_mtv_map.yaml
-amcl_pkg/maps/udacity_mtv_map.png
+./amcl_pkg/maps/udacity_mtv_map.yaml
+./amcl_pkg/maps/udacity_mtv_map.png
+./my_robot/worlds/udacity_mtv.world
