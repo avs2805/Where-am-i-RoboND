@@ -53,7 +53,7 @@ ________
 
 #### Images
 ________
----
+
 ![screenshot of localized robot](./images/localized_robot_screenshot.png)
 
 1. Localized robot starting from initial pose x:0, y:0. Move input provided by teleop_twist_keyboard.py
