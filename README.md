@@ -1,7 +1,10 @@
 ### AMCL in ROS - Udacity RoboND
 
-####Folder Structure:
+#### Folder Structure:
+---
+
 ```bash
+.
 .
 ├── amcl_pkg
 │   ├── CMakeLists.txt
@@ -16,18 +19,17 @@
 │   ├── launch
 │   │   └── amcl.launch
 │   ├── maps
-│   │   ├── apt_1br_map_mod.pgm
-│   │   ├── apt_1br_map_mod.yaml
 │   │   ├── apt_1br_map.pgm
 │   │   ├── apt_1br_map.yaml
-│   │   ├── apt_map.pgm
-│   │   ├── apt_map.yaml
 │   │   ├── udacity_mtv_map.pgm
 │   │   └── udacity_mtv_map.yaml
 │   ├── package.xml
 │   └── src
 ├── CMakeLists.txt -> /opt/ros/melodic/share/catkin/cmake/toplevel.cmake
-├── localized_robot_screenshot.png
+├── images
+│   ├── localized_robot_screenshot.png
+│   ├── tuned_amcl_1.gif
+│   └── tuned_amcl_2.gif
 ├── my_robot
 │   ├── CMakeLists.txt
 │   ├── launch
@@ -43,17 +45,17 @@
 │       ├── robots_in_apt.world
 │       └── udacity_mtv.world
 ├── README.md
-├── teleop_twist_keyboard
-│   ├── CHANGELOG.rst
-│   ├── CMakeLists.txt
-│   ├── package.xml
-│   ├── README.md
-│   └── teleop_twist_keyboard.py
-├── tuned_amcl_1.gif
-└── tuned_amcl_2.gif
+└── teleop_twist_keyboard
+    ├── CHANGELOG.rst
+    ├── CMakeLists.txt
+    ├── package.xml
+    ├── README.md
+    └── teleop_twist_keyboard.py
+
 ```
 
 #### Images
+---
 ![screenshot of localized robot](./images/localized_robot_screenshot.png)
 
 1. Localized robot starting from initial pose x:0, y:0. Move input provided by teleop_twist_keyboard.py
