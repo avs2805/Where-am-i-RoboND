@@ -2,7 +2,7 @@
 
 <launch>
    <!-- Argument to the map file -->
-  <arg name="map_file" default="$(find amcl_pkg)/maps/apt_1br_map_mod.yaml"/>
+  <arg name="map_file" default="$(find amcl_pkg)/maps/apt_1br_map.yaml"/>
   <!-- Map Server Node -->
   <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)"/>
 
@@ -15,8 +15,8 @@
 
     <!-- Overall Filter Tuning -->
     <!-- Initial Pose  -->
-    <param name="initial_pose_x" value="0"/>
-    <param name="initial_pose_y" value="0"/>
+    <param name="initial_pose_x" value="-4.5"/>
+    <param name="initial_pose_y" value="2.25"/>
     <param name="initial_pose_a" value="-1.5708"/>
     <!-- # of Particles -->
     <param name="min_particles" value="10"/>
