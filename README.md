@@ -5,7 +5,6 @@
 
 ```bash
 .
-.
 ├── amcl_pkg
 │   ├── CMakeLists.txt
 │   ├── config
