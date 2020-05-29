@@ -1,7 +1,7 @@
-### AMCL in ROS - Udacity RoboND
+## AMCL in ROS - Udacity RoboND
 ________
 
-#### Folder Structure:
+### Folder Structure:
 ________
 
 ```bash
@@ -51,7 +51,7 @@ ________
 
 ```
 
-#### Images
+### Images
 ________
 
 ![screenshot of localized robot](./images/localized_robot_screenshot.png)
